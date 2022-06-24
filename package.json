@@ -1,0 +1,65 @@
+{
+  "name": "js-colorize",
+  "version": "1.2.0",
+  "description": "A simple js module boilerplate",
+  "main": "dist/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "webpack-dev-server --entry ./src/main.js --output-filename ./dist/index.js --mode development",
+    "build": "webpack --mode production",
+    "test": "jest --runInBand",
+    "coverage": "jest --runInBand --coverage",
+    "lint": "eslint --cache --fix src",
+    "prettier": "npm run lint && prettier --write .",
+    "prepare": "husky install",
+    "prebuild": "npm run test && npm run clean",
+    "prepublishOnly": "npm run build"
+  },
+  "author": {
+    "name": "Rajaniraiyn",
+    "email": "rajaniraiyn@gmail.com",
+    "url": "https://rajaniraiyn.github.io/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajaniraiyn/js-boilerplate.git"
+  },
+  "keywords": [
+    "javascript",
+    "boilerplate",
+    "js",
+    "js module",
+    "boiler-plate",
+    "js-module",
+    "node",
+    "browser"
+  ],
+  "bugs": {
+    "url": "https://github.com/Rajaniraiyn/js-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Rajaniraiyn/js-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^28.0.2",
+    "babel-loader": "^8.2.2",
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^26.0.0",
+    "husky": "^8.0.1",
+    "jest": "^28.0.0",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.55.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
