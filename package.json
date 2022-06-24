@@ -1,7 +1,7 @@
 {
   "name": "js-colorize",
   "version": "1.2.0",
-  "description": "A simple js module boilerplate",
+  "description": "npm package for using hex colors with opacity",
   "main": "dist/index.js",
   "sideEffects": false,
   "scripts": {
@@ -17,15 +17,11 @@
     "prepublishOnly": "npm run build"
   },
   "author": {
-    "name": "Rajaniraiyn",
-    "email": "rajaniraiyn@gmail.com",
-    "url": "https://rajaniraiyn.github.io/"
+    "name": "Muhammed Deniz",
+    "email": "muhammddenizcs@gmail.com",
+    "url": "https://github.com/muhammeddeniz"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rajaniraiyn/js-boilerplate.git"
-  },
   "keywords": [
     "javascript",
     "boilerplate",
@@ -37,9 +33,9 @@
     "browser"
   ],
   "bugs": {
-    "url": "https://github.com/Rajaniraiyn/js-boilerplate/issues"
+    "url": "https://github.com/muhammeddeniz/js-colorize/issues"
   },
-  "homepage": "https://github.com/Rajaniraiyn/js-boilerplate#readme",
+  "homepage": "https://github.com/muhammeddeniz/js-colorize#readme",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.8",
