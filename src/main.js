@@ -15,4 +15,4 @@ const hexWithAlpha = (hex, alpha) => {
   return `rgba(${color.r}, ${color.b}, ${color.g}, ${alpha})`;
 };
 
-module.exports = hexWithAlpha;
+module.exports = { hexWithAlpha };

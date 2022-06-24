@@ -16,6 +16,16 @@ or
 yarn add js-colorize
 ```
 
+### Usage
+
+```js
+import { hexWithAlpha } from "js-colorize";
+
+// ...
+var convertedColor = hexWithAlpha("#ffffff", 0.3);
+//  'rgba(255, 255, 255, 0.3)'
+```
+
 ### `hexWithAlpha`
 
 | Usage                          | Hex                                                                           | Alpha | Result                   |
