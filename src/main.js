@@ -10,9 +10,7 @@ const hexToRgb = (hex) => {
     : null;
 };
 
-const hexWithAlpha = (hex, alpha) => {
+export const hexWithAlpha = (hex, alpha) => {
   const color = hexToRgb(hex);
   return `rgba(${color.r}, ${color.b}, ${color.g}, ${alpha})`;
 };
-
-module.exports = { hexWithAlpha };

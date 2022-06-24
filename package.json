@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "description": "npm package for using hex colors with opacity",
   "main": "dist/index.js",
+  "type": "module",
   "sideEffects": false,
   "scripts": {
     "clean": "rimraf dist/*",

@@ -1,4 +1,4 @@
-const hexWithAlpha = require("./main");
+import { hexWithAlpha } from "./main";
 
 test("convert hex to rgba", () => {
   expect(hexWithAlpha("#ffffff", 0.7)).toBe("rgba(255, 255, 255, 0.7)");
