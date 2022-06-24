@@ -4,6 +4,18 @@
 
 Helper funtions for color usage in js.
 
+### Download
+
+```sh
+npm install js-colorize
+```
+
+or
+
+```sh
+yarn add js-colorize
+```
+
 ### `hexWithAlpha`
 
 | Usage                          | Hex                                                                           | Alpha | Result                   |
