@@ -12,5 +12,5 @@ const hexToRgb = (hex) => {
 
 export const hexWithAlpha = (hex, alpha) => {
   const color = hexToRgb(hex);
-  return `rgba(${color.r}, ${color.b}, ${color.g}, ${alpha})`;
+  return `rgba(${color.r}, ${color.g}, ${color.b}, ${alpha})`;
 };
